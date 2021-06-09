@@ -1,0 +1,55 @@
+$--skin-palette-11: rgba(18,22,35,1);
+$--hero-color: rgba(166,31,103,1);
+$--skin-palette-7: rgba(63.0126622,69.05147797,83.0113378,1);
+$--skin-palette-10 :rgba(23.99393336,27.99325884,40.99106664,1);
+$--text-palette-1: rgba(255,255,255,1);
+$--text-palette-5: rgba(120.47362464,121.9220616,117.0939384,1);
+$--skin-palette-9:rgba(32.99375837,36.99387208,49.99424163,1);
+$--text-palette-6:rgba(78.97222719,81.22677255,72.77222745,1);
+$--brand-color-1-1: rgba(31.76521739,136.83478261,98.96086957,1);
+$--favorite-color: rgba(206,159,91,1);
+$--set-color-9-text: rgba(255,255,255,1);
+$--skin-palette-12 : rgba(0,0,0,.4);
+
+.poker-change{
+    background : #313744; 
+    border : 1px solid black;
+
+    .poker-change-name{
+        color: white;
+        font-size: 17px;
+    }
+    .poker-change-money{
+        color: white;
+        float: right;
+        font-size : 18px
+    }
+}
+
+.poker-nav-header{
+    background : #313744;
+    border : 1px solid black;
+
+    .poker-search-item{
+        cursor : pointer;
+        color: gray;
+        font-size: 17px;
+    }
+    .poker-search-item-active{
+        border-bottom: 3px solid #a61f67;
+        color: white;
+    }
+}
+
+.poker-field-item{
+    padding-right : "0";
+
+    .poker-field-item-contanor{
+        background : #3f4553;
+
+        .pokerSelect{
+            border-right : 3px solid #5c616d;
+            cursor : pointer;
+        }
+    }
+}
